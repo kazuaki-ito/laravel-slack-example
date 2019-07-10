@@ -12,12 +12,22 @@ composer require laravel/slack-notification-channel
 ### ② Notification生成
 
 
-`````
+```
 php artisan make:notification Slack
 
 # ${project_root}/app/Notifivatoins/Slack
 
 ```
+
+### ③ env
+
+```
+SLACK_CHANNEL=
+SLACK_NAME=
+SLACK_WEBHOOK_URL=
+
+```
+
 
 
 ### 参考
